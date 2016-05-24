@@ -11,7 +11,7 @@ class ChaimzService
   end
 
   def get_artist(id)
-    @connection.get "artists/#{id}"
+    connection.get("artists/#{id}")
   end
 
   def artist_hash(id)
